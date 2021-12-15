@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamFelicia
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -37,12 +37,12 @@ from telethon.tl.types import (
     MessageMediaPhoto,
 )
 
-from DaisyX import bot
-from DaisyX.decorator import register
-from DaisyX.services.events import register as Daisy
-from DaisyX.services.pyrogram import pbot
-from DaisyX.services.telethon import tbot
-from DaisyX.services.telethonuserbot import ubot
+from Felicia import bot
+from Felicia.decorator import register
+from Felicia.services.events import register as Daisy
+from Felicia.services.pyrogram import pbot
+from Felicia.services.telethon import tbot
+from Felicia.services.telethonuserbot import ubot
 
 from .utils.disable import disableable_dec
 from .utils.language import get_strings_dec
@@ -197,7 +197,7 @@ def find_instance(items, class_or_tuple):
     return None
 
 
-DEFAULTUSER = "DaisyX"
+DEFAULTUSER = "Felicia"
 FILLED_UP_DADDY = "Invalid pack selected."
 
 

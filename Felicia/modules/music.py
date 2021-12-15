@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamFelicia
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -22,8 +22,8 @@ import lyricsgenius
 from pyrogram import filters
 from tswift import Song
 
-from DaisyX.config import get_str_key
-from DaisyX.services.pyrogram import pbot
+from Felicia.config import get_str_key
+from Felicia.services.pyrogram import pbot
 
 GENIUS = get_str_key("GENIUS_API_TOKEN", None)
 

@@ -6,7 +6,7 @@ import aiofiles
 import aiohttp
 from pyrogram import filters
 
-from DaisyX.services.pyrogram import pbot as LYCIA
+from Felicia.services.pyrogram import pbot as LYCIA
 
 
 async def fetch(url):
@@ -40,7 +40,7 @@ async def Lycia(_, message):
     m = await message.reply_text("Felicia Is Best...")
     try:
         L = await fetch(
-            f"https://api.affiliateplus.xyz/api/chatbot?message={lycia}&botname=Daisy&ownername=TeamDaisyX&user=1"
+            f"https://api.affiliateplus.xyz/api/chatbot?message={lycia}&botname=Daisy&ownername=TeamFelicia&user=1"
         )
         chatbot = L["message"]
         VoiceAi = f"https://lyciavoice.herokuapp.com/lycia?text={chatbot}&lang=hi"

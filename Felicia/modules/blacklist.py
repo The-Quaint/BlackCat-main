@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamFelicia
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -23,9 +23,9 @@ import tldextract
 from telethon import events, types
 from telethon.tl import functions
 
-import DaisyX.services.sql.urlblacklist_sql as urlsql
-from DaisyX.services.events import register
-from DaisyX.services.telethon import tbot
+import Felicia.services.sql.urlblacklist_sql as urlsql
+from Felicia.services.events import register
+from Felicia.services.telethon import tbot
 
 
 async def can_change_info(message):

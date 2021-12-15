@@ -7,4 +7,4 @@ COPY requirements.txt .
 COPY deploy.sh .
 RUN bash deploy.sh
 COPY . .
-CMD ["python3", "-m", "DaisyX"]
+CMD ["python3", "-m", "Felicia"]

@@ -26,14 +26,14 @@ SOFTWARE.
 
 from pyrogram import filters
 
-from DaisyX.db.mongo_helpers.filterdb import (
+from Felicia.db.mongo_helpers.filterdb import (
     delete_filter,
     get_filter,
     get_filters_names,
     save_filter,
 )
-from DaisyX.function.pluginhelpers import member_permissions
-from DaisyX.services.pyrogram import pbot as app
+from Felicia.function.pluginhelpers import member_permissions
+from Felicia.services.pyrogram import pbot as app
 
 # Original file >> https://github.com/TheHamkerCat/WilliamButcherBot/blob/dev/wbb/modules/filters.py
 

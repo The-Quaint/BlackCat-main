@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamFelicia
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -19,8 +19,8 @@
 from pyrogram import filters
 from pyrogram.errors import RPCError
 
-from DaisyX.function.pluginhelpers import admins_only, get_text
-from DaisyX.services.pyrogram import pbot
+from Felicia.function.pluginhelpers import admins_only, get_text
+from Felicia.services.pyrogram import pbot
 
 
 @pbot.on_message(

@@ -1,5 +1,5 @@
 # Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamFelicia
 # Copyright (C) 2020 Inuka Asith
 
 # This file is part of Daisy (Telegram Bot)
@@ -19,8 +19,8 @@
 
 from aiogram.types.inline_keyboard import InlineKeyboardButton, InlineKeyboardMarkup
 
-from DaisyX.decorator import COMMANDS_ALIASES, register
-from DaisyX.services.mongo import db
+from Felicia.decorator import COMMANDS_ALIASES, register
+from Felicia.services.mongo import db
 
 from .utils.connections import chat_connection
 from .utils.disable import DISABLABLE_COMMANDS, disableable_dec

@@ -1,5 +1,5 @@
 # Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamFelicia
 # Copyright (C) 2020 Inuka Asith
 
 # This file is part of Daisy (Telegram Bot)
@@ -34,12 +34,12 @@ from async_timeout import timeout
 from bson.objectid import ObjectId
 from pymongo import UpdateOne
 
-from DaisyX import bot, loop
-from DaisyX.decorator import register
-from DaisyX.modules import LOADED_MODULES
-from DaisyX.services.mongo import db
-from DaisyX.services.redis import redis
-from DaisyX.utils.logger import log
+from Felicia import bot, loop
+from Felicia.decorator import register
+from Felicia.modules import LOADED_MODULES
+from Felicia.services.mongo import db
+from Felicia.services.redis import redis
+from Felicia.utils.logger import log
 
 from .utils.connections import chat_connection, get_connected_chat
 from .utils.language import get_string, get_strings_dec

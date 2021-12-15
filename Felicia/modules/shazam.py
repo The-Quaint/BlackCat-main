@@ -6,8 +6,8 @@ import requests
 # import ffmpeg
 from pyrogram import filters
 
-from DaisyX.function.pluginhelpers import admins_only, edit_or_reply, fetch_audio
-from DaisyX.services.pyrogram import pbot
+from Felicia.function.pluginhelpers import admins_only, edit_or_reply, fetch_audio
+from Felicia.services.pyrogram import pbot
 
 
 @pbot.on_message(filters.command(["identify", "shazam"]))

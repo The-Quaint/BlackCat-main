@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamFelicia
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -21,9 +21,9 @@ import datetime
 
 from telethon.tl import functions, types
 
-from DaisyX.services.events import register
-from DaisyX.services.telethon import tbot
-from DaisyX.services.telethonuserbot import ubot
+from Felicia.services.events import register
+from Felicia.services.telethon import tbot
+from Felicia.services.telethonuserbot import ubot
 
 
 async def is_register_admin(chat, user):

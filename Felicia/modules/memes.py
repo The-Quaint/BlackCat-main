@@ -25,10 +25,10 @@ from telethon.tl import functions
 from telethon.tl.types import *
 from zalgo_text import zalgo
 
-from DaisyX import *
-from DaisyX.services.events import register
-from DaisyX.services.telethon import tbot
-from DaisyX.services.telethonuserbot import ubot
+from Felicia import *
+from Felicia.services.events import register
+from Felicia.services.telethon import tbot
+from Felicia.services.telethonuserbot import ubot
 
 nltk.download("punkt")
 nltk.download("averaged_perceptron_tagger")

@@ -40,11 +40,11 @@ from pyrogram.types import (
 from Python_ARQ import ARQ
 from search_engine_parser import GoogleSearch
 
-from DaisyX import BOT_USERNAME, OWNER_ID
-from DaisyX.config import get_str_key
-from DaisyX.function.pluginhelpers import convert_seconds_to_minutes as time_convert
-from DaisyX.function.pluginhelpers import fetch
-from DaisyX.services.pyrogram import pbot
+from Felicia import BOT_USERNAME, OWNER_ID
+from Felicia.config import get_str_key
+from Felicia.function.pluginhelpers import convert_seconds_to_minutes as time_convert
+from Felicia.function.pluginhelpers import fetch
+from Felicia.services.pyrogram import pbot
 
 ARQ_API = get_str_key("ARQ_API", required=True)
 ARQ_API_KEY = ARQ_API

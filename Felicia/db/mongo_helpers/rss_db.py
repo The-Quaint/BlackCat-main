@@ -1,4 +1,4 @@
-from DaisyX.services.mongo import mongodb as db_x
+from Felicia.services.mongo import mongodb as db_x
 
 rss = db_x["RSS"]
 

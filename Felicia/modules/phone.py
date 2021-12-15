@@ -3,8 +3,8 @@ import json
 import requests
 from telethon import types
 
-from DaisyX.services.events import register
-from DaisyX.services.telethon import tbot as client
+from Felicia.services.events import register
+from Felicia.services.telethon import tbot as client
 
 
 async def is_register_admin(chat, user):

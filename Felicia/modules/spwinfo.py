@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamFelicia
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -23,7 +23,7 @@ import aiohttp
 from pyrogram import filters
 from pyrogram.errors import PeerIdInvalid
 
-from DaisyX.services.pyrogram import pbot
+from Felicia.services.pyrogram import pbot
 
 
 class AioHttp:

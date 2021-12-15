@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamFelicia
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -23,8 +23,8 @@ from telethon.errors import ChatAdminRequiredError, UserAdminInvalidError
 from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import ChatBannedRights
 
-from DaisyX import OWNER_ID
-from DaisyX.services.telethon import tbot as client
+from Felicia import OWNER_ID
+from Felicia.services.telethon import tbot as client
 
 # =================== CONSTANT ===================
 

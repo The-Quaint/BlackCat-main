@@ -25,10 +25,10 @@ from typing import Dict, Union
 
 from pyrogram import filters
 
-from DaisyX.db.mongo_helpers.karma import is_karma_on, karma_off, karma_on
-from DaisyX.function.pluginhelpers import member_permissions
-from DaisyX.services.mongo2 import db
-from DaisyX.services.pyrogram import pbot as app
+from Felicia.db.mongo_helpers.karma import is_karma_on, karma_off, karma_on
+from Felicia.function.pluginhelpers import member_permissions
+from Felicia.services.mongo2 import db
+from Felicia.services.pyrogram import pbot as app
 
 karmadb = db.karma
 karma_positive_group = 3

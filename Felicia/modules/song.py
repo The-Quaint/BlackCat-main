@@ -35,9 +35,9 @@ from youtube_search import YoutubeSearch
 from youtubesearchpython import SearchVideos
 from yt_dlp import YoutubeDL
 
-from DaisyX.function.inlinehelper import arq
-from DaisyX.function.pluginhelpers import get_text, progress
-from DaisyX.services.pyrogram import pbot as Client
+from Felicia.function.inlinehelper import arq
+from Felicia.function.pluginhelpers import get_text, progress
+from Felicia.services.pyrogram import pbot as Client
 
 dl_limit = 0
 

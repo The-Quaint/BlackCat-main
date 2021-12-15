@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamFelicia
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -23,11 +23,11 @@ import aiohttp
 from telethon.tl import functions, types
 from telethon.tl.types import *
 
-from DaisyX.config import get_str_key
+from Felicia.config import get_str_key
 
 OPENWEATHERMAP_ID = get_str_key("OPENWEATHERMAP_ID", "")
-from DaisyX.services.events import register
-from DaisyX.services.telethon import tbot
+from Felicia.services.events import register
+from Felicia.services.telethon import tbot
 
 
 async def is_register_admin(chat, user):

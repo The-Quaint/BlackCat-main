@@ -16,11 +16,11 @@
 from aiogram import types
 from aiogram.dispatcher.filters import BoundFilter
 
-from DaisyX import OPERATORS, dp
-from DaisyX.config import get_int_key
-from DaisyX.modules.utils.language import get_strings_dec
-from DaisyX.modules.utils.user_details import is_user_admin
-from DaisyX.services.mongo import mongodb
+from Felicia import OPERATORS, dp
+from Felicia.config import get_int_key
+from Felicia.modules.utils.language import get_strings_dec
+from Felicia.modules.utils.user_details import is_user_admin
+from Felicia.services.mongo import mongodb
 
 
 class IsAdmin(BoundFilter):

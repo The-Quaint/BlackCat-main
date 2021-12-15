@@ -1,6 +1,6 @@
 from pyrogram import filters
 
-from DaisyX.services.pyrogram import pbot as Daisy
+from Felicia.services.pyrogram import pbot as Daisy
 
 
 @Daisy.on_message(filters.command("webshot", ["."]))

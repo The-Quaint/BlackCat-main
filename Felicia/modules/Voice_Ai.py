@@ -1,6 +1,6 @@
 # Ported from @MissJuliaRobot
 
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamFelicia
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -28,9 +28,9 @@ from requests import get
 from telethon.tl import functions, types
 from telethon.tl.types import *
 
-from DaisyX.config import get_str_key
-from DaisyX.services.events import register
-from DaisyX.services.telethon import tbot
+from Felicia.config import get_str_key
+from Felicia.services.events import register
+from Felicia.services.telethon import tbot
 
 IBM_WATSON_CRED_PASSWORD = get_str_key("IBM_WATSON_CRED_PASSWORD", None)
 IBM_WATSON_CRED_URL = get_str_key("IBM_WATSON_CRED_URL", None)

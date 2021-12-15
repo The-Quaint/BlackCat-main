@@ -15,10 +15,10 @@ from pyrogram import filters
 # This plugin is ported from https://github.com/thehamkercat/WilliamButcherBot
 from search_engine_parser.core.engines.google import Search as GoogleSearch
 
-from DaisyX.modules.utils.fetch import fetch
-from DaisyX.services.events import register
-from DaisyX.services.pyrogram import pbot as app
-from DaisyX.services.telethon import tbot
+from Felicia.modules.utils.fetch import fetch
+from Felicia.services.events import register
+from Felicia.services.pyrogram import pbot as app
+from Felicia.services.telethon import tbot
 
 ARQ = "https://thearq.tech/"
 

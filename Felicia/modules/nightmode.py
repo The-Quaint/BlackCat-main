@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamFelicia
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -21,15 +21,15 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from telethon import events, functions
 from telethon.tl.types import ChatBannedRights
 
-from DaisyX import BOT_ID
-from DaisyX.function.telethonbasics import is_admin
-from DaisyX.services.sql.night_mode_sql import (
+from Felicia import BOT_ID
+from Felicia.function.telethonbasics import is_admin
+from Felicia.services.sql.night_mode_sql import (
     add_nightmode,
     get_all_chat_id,
     is_nightmode_indb,
     rmnightmode,
 )
-from DaisyX.services.telethon import tbot
+from Felicia.services.telethon import tbot
 
 CLEAN_GROUPS = False
 hehes = ChatBannedRights(

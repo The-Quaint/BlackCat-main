@@ -36,7 +36,7 @@ DAISYX. Deployed Successfully
  * |D| |A| |I| |S| |Y| |X| *
  ******************* v2.0 ** 
 
-Thanks for deploying DaisyX
+Thanks for deploying Felicia
 (C) 2020-2021 by @TEAMDAISYX
 Support Chat is @DAISYSUPPORT_OFFICIAL.
 =++---------------------------------------------++=

@@ -1,5 +1,5 @@
 # Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamFelicia
 # Copyright (C) 2020 Inuka Asith
 
 # This file is part of Daisy (Telegram Bot)
@@ -22,9 +22,9 @@ import html
 from aiogram.utils.exceptions import ChatAdminRequired
 from telethon.errors import AdminRankEmojiNotAllowedError
 
-from DaisyX import BOT_ID, bot
-from DaisyX.decorator import register
-from DaisyX.services.telethon import tbot
+from Felicia import BOT_ID, bot
+from Felicia.decorator import register
+from Felicia.services.telethon import tbot
 
 from .utils.connections import chat_connection
 from .utils.language import get_strings_dec

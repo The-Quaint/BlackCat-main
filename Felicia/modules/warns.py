@@ -1,5 +1,5 @@
 # Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamFelicia
 # Copyright (C) 2020 Inuka Asith
 
 # This file is part of Daisy (Telegram Bot)
@@ -29,10 +29,10 @@ from aiogram.utils.exceptions import MessageNotModified
 from babel.dates import format_timedelta
 from bson.objectid import ObjectId
 
-from DaisyX import BOT_ID, bot
-from DaisyX.decorator import register
-from DaisyX.services.mongo import db
-from DaisyX.services.telethon import tbot
+from Felicia import BOT_ID, bot
+from Felicia.decorator import register
+from Felicia.services.mongo import db
+from Felicia.services.telethon import tbot
 
 from .misc import customise_reason_finish, customise_reason_start
 from .utils.connections import chat_connection

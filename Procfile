@@ -1,2 +1,2 @@
-DAISYX: python3 -m DaisyX
+DAISYX: python3 -m Felicia
 ps:scale DAISYX=1

@@ -4,7 +4,7 @@
 <h4 align="center">A Powerful, Smart And Simple Group Manager <br> ... Written with AioGram , Pyrogram and Telethon...</h4>
 <p align='center'>
   <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat-square&logo=python&color=blue" /> </a>
-  <a href="https://github.com/TeamDaisyX/DaisyX-v2/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" /> </a>
+  <a href="https://github.com/TeamFelicia/Felicia-v2/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" /> </a>
 </p>
 
 
@@ -42,7 +42,7 @@
 # 😍 Credits
 
  - [MissJuliaRobot](https://github.com/MissJuliaRobot/MissJuliaRobot)
- - [DaisyX](https://github.com/teamdaisyx/daisy-x)
+ - [Felicia](https://github.com/teamdaisyx/daisy-x)
  - [ADV-Auto-Filter-Bot-V2](https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2)
  - [Image-Editor](https://github.com/TroJanzHEX/Image-Editor/)
  - [Utah](https://github.com/minatouzuki/utah).
@@ -55,4 +55,4 @@ All other credits mentioned on top of scripts
 
 Anything missing kindly let us know at [Daisy Support](https://t.me/DaisySupport_Official) or simply submit a pull request on the readme.
 
-This project is heavily based on DaisyXbot. All credits belong to TeamDaisyX. This new code just fixed some errors and made it a marvel character themed bot.
+This project is heavily based on Feliciabot. All credits belong to TeamFelicia. This new code just fixed some errors and made it a marvel character themed bot.

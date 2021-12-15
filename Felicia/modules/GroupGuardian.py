@@ -25,19 +25,19 @@ from google_trans_new import google_translator
 from telethon import events
 from telethon.tl.types import ChatBannedRights
 
-from DaisyX import BOT_ID
+from Felicia import BOT_ID
 
-# from DaisyX.db.mongo_helpers.nsfw_guard import add_chat, get_all_nsfw_chats, is_chat_in_db, rm_chat
-from DaisyX.function.telethonbasics import is_admin
-from DaisyX.services.events import register
-from DaisyX.services.mongo import mongodb as db
-from DaisyX.services.sql.nsfw_watch_sql import (
+# from Felicia.db.mongo_helpers.nsfw_guard import add_chat, get_all_nsfw_chats, is_chat_in_db, rm_chat
+from Felicia.function.telethonbasics import is_admin
+from Felicia.services.events import register
+from Felicia.services.mongo import mongodb as db
+from Felicia.services.sql.nsfw_watch_sql import (
     add_nsfwatch,
     get_all_nsfw_enabled_chat,
     is_nsfwatch_indb,
     rmnsfwatch,
 )
-from DaisyX.services.telethon import tbot
+from Felicia.services.telethon import tbot
 
 translator = google_translator()
 MUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=False)

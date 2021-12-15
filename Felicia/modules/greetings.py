@@ -1,5 +1,5 @@
 # Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamFelicia
 
 # This file is part of Daisy (Telegram Bot)
 
@@ -40,14 +40,14 @@ from babel.dates import format_timedelta
 from captcha.image import ImageCaptcha
 from telethon.tl.custom import Button
 
-from DaisyX import BOT_ID, BOT_USERNAME, bot, dp
-from DaisyX.config import get_str_key
-from DaisyX.decorator import register
-from DaisyX.services.apscheduller import scheduler
-from DaisyX.services.mongo import db
-from DaisyX.services.redis import redis
-from DaisyX.services.telethon import tbot
-from DaisyX.stuff.fonts import ALL_FONTS
+from Felicia import BOT_ID, BOT_USERNAME, bot, dp
+from Felicia.config import get_str_key
+from Felicia.decorator import register
+from Felicia.services.apscheduller import scheduler
+from Felicia.services.mongo import db
+from Felicia.services.redis import redis
+from Felicia.services.telethon import tbot
+from Felicia.stuff.fonts import ALL_FONTS
 
 from ..utils.cached import cached
 from .utils.connections import chat_connection

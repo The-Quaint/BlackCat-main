@@ -14,10 +14,10 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 from aiogram.utils.exceptions import Unauthorized
 
-from DaisyX.modules.utils.user_details import is_user_admin
-from DaisyX.services.mongo import db
-from DaisyX.services.redis import redis
-from DaisyX.utils.cached import cached
+from Felicia.modules.utils.user_details import is_user_admin
+from Felicia.services.mongo import db
+from Felicia.services.redis import redis
+from Felicia.utils.cached import cached
 
 
 async def get_connected_chat(

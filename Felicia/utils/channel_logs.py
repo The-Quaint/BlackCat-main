@@ -15,9 +15,9 @@
 
 import html
 
-from DaisyX import bot
-from DaisyX.config import get_int_key
-from DaisyX.utils.logger import log
+from Felicia import bot
+from Felicia.config import get_int_key
+from Felicia.utils.logger import log
 
 
 async def channel_log(msg, info_log=True):

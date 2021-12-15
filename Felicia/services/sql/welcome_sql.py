@@ -1,6 +1,6 @@
 from sqlalchemy import BigInteger, Boolean, Column, String, UnicodeText
 
-from DaisyX.services.sql import BASE, SESSION
+from Felicia.services.sql import BASE, SESSION
 
 
 class Goodbye(BASE):

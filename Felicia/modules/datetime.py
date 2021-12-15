@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamFelicia
 
 
 # This file is part of Daisy (Telegram Bot)
@@ -23,9 +23,9 @@ import requests
 from telethon import types
 from telethon.tl import functions
 
-from DaisyX.config import get_str_key
-from DaisyX.services.events import register
-from DaisyX.services.telethon import tbot
+from Felicia.config import get_str_key
+from Felicia.services.events import register
+from Felicia.services.telethon import tbot
 
 TIME_API_KEY = get_str_key("TIME_API_KEY", required=False)
 

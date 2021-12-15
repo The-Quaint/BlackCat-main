@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TheHamkerCat & TeamDaisyX
+# Copyright (C) 2021 TheHamkerCat & TeamFelicia
 
 # Ported some parts From WilliamButcherBot.
 # Pokedex Inline Credit Red-Aura[Madepranav]
@@ -53,10 +53,10 @@ from search_engine_parser import GoogleSearch
 from tswift import Song
 from youtubesearchpython import VideosSearch
 
-from DaisyX.config import get_str_key
-from DaisyX.function.inlinehelper import *
-from DaisyX.function.pluginhelpers import fetch, json_prettify
-from DaisyX.services.pyrogram import pbot as app
+from Felicia.config import get_str_key
+from Felicia.function.inlinehelper import *
+from Felicia.function.pluginhelpers import fetch, json_prettify
+from Felicia.services.pyrogram import pbot as app
 
 OPENWEATHERMAP_ID = get_str_key("OPENWEATHERMAP_ID", "")
 TIME_API_KEY = get_str_key("TIME_API_KEY", required=False)

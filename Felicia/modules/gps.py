@@ -1,4 +1,4 @@
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 TeamFelicia
 
 # This file is part of Daisy (Telegram Bot)
 
@@ -20,8 +20,8 @@ from geopy.geocoders import Nominatim
 from telethon import *
 from telethon.tl import *
 
-from DaisyX.services.events import register
-from DaisyX.services.telethon import tbot as client
+from Felicia.services.events import register
+from Felicia.services.telethon import tbot as client
 
 
 async def is_register_admin(chat, user):
