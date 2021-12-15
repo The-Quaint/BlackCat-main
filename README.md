@@ -32,7 +32,7 @@
 ```
 ```
 
-# 😍 Credits
+# 😍 Based on (Credits)
 
  - [MissJuliaRobot](https://github.com/MissJuliaRobot/MissJuliaRobot)
  - [DaisyX](https://github.com/teamdaisyx/daisy-x)
@@ -42,6 +42,4 @@
  - [WilliamButcherBot](https://github.com/thehamkercat/WilliamButcherBot)
 
 
-Anything missing kindly contact me through [Telegram](https://t.me/The_Quaint) or simply submit a pull request on the readme.
-
-This project is heavily based on DaisyXbot. All credits belong to TeamDaisyX. This new code just fixed some errors and made it a marvel character themed bot.
+Anything doesn't work or needs improvement contact me through [Telegram](https://t.me/The_Quaint) or simply submit a pull request on the readme.
