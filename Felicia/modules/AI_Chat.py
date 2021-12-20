@@ -31,7 +31,7 @@ from Felicia import BOT_ID
 from Felicia.db.mongo_helpers.aichat import add_chat, get_session, remove_chat
 from Felicia.function.inlinehelper import arq
 from Felicia.function.pluginhelpers import admins_only, edit_or_reply
-from Felicia.services.pyrogram import pbot as daisyx
+from Felicia.services.pyrogram import pbot as Felicia
 
 translator = google_translator()
 
@@ -65,7 +65,7 @@ en_chats = []
 # AI Chat (C) 2020-2021 by @InukaAsith
 
 
-@daisyx.on_message(
+@Felicia.on_message(
     filters.command("chatbot") & ~filters.edited & ~filters.bot & ~filters.private
 )
 @admins_only
@@ -111,7 +111,7 @@ async def hmm(_, message):
         )
 
 
-@daisyx.on_message(
+@Felicia.on_message(
     filters.text
     & filters.reply
     & ~filters.bot
@@ -147,7 +147,7 @@ async def hmm(client, message):
 
         pro = response
         try:
-            await daisyx.send_chat_action(message.chat.id, "typing")
+            await Felicia.send_chat_action(message.chat.id, "typing")
             await message.reply_text(pro)
         except CFError:
             return
@@ -212,13 +212,13 @@ async def hmm(client, message):
             except:
                 return
         try:
-            await daisyx.send_chat_action(message.chat.id, "typing")
+            await Felicia.send_chat_action(message.chat.id, "typing")
             await message.reply_text(pro)
         except CFError:
             return
 
 
-@daisyx.on_message(
+@Felicia.on_message(
     filters.text & filters.private & ~filters.edited & filters.reply & ~filters.bot
 )
 async def inuka(client, message):
@@ -281,14 +281,14 @@ async def inuka(client, message):
         pro = translator.translate(pro, dest=lan)
         pro = pro.text
     try:
-        await daisyx.send_chat_action(message.chat.id, "typing")
+        await Felicia.send_chat_action(message.chat.id, "typing")
         await message.reply_text(pro)
     except CFError:
         return
 
 
-@daisyx.on_message(
-    filters.regex("Daisy|daisy|Felicia|daisyx|Daisyx")
+@Felicia.on_message(
+    filters.regex("Daisy|daisy|Felicia|Felicia|Daisyx")
     & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded
@@ -357,7 +357,7 @@ async def inuka(client, message):
         except Exception:
             return
     try:
-        await daisyx.send_chat_action(message.chat.id, "typing")
+        await Felicia.send_chat_action(message.chat.id, "typing")
         await message.reply_text(pro)
     except CFError:
         return

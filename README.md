@@ -34,7 +34,7 @@
 # 😍 Based on (Credits)
 
  - [MissJuliaRobot](https://github.com/MissJuliaRobot/MissJuliaRobot)
- - [DaisyX](https://github.com/teamdaisyx/daisy-x)
+ - [DaisyX](https://github.com/teamFelicia/daisy-x)
  - [ADV-Auto-Filter-Bot-V2](https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2)
  - [Image-Editor](https://github.com/TroJanzHEX/Image-Editor/)
  - [Utah](https://github.com/minatouzuki/utah).
