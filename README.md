@@ -31,7 +31,7 @@
 ```
 
 
-# 😍 Based on (Credits)
+# 🤩 Based on (Special Credits)
 
  - [MissJuliaRobot](https://github.com/MissJuliaRobot/MissJuliaRobot)
  - [DaisyX](https://github.com/teamFelicia/daisy-x)
