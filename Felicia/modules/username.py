@@ -19,7 +19,7 @@
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl import functions, types
 
-from Felicia.services.events import register as Daisy
+from Felicia.services.events import register as Felicia
 from Felicia.services.telethon import tbot
 from Felicia.services.telethonuserbot import ubot
 
