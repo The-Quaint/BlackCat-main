@@ -7,7 +7,7 @@
 </p>
 
 
-<p align="center"><a href="https://t.me/The_Quaint"><img src="https://telegra.ph/file/02328427f0509427fb399.jpg" width="580"></a></p>
+<p align="center"><a href="https://t.me/The_Quaint"><img src="https://telegra.ph/file/02328427f0509427fb399.jpg" width="720"></a></p>
 <p align="center">
 <h4 align="center">" I'm the Black Cat. The greatest thief of all time. There's nothing you can take from me... that I can't get back."</h4>
 </p>
