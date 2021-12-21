@@ -1,7 +1,6 @@
-# Copyright (C) 2021 TheHamkerCat & TeamFelicia
+# Copyright (C) 2021 TheHamkerCat & The-Quaint
 
 # Ported some parts From WilliamButcherBot.
-# Pokedex Inline Credit Red-Aura[Madepranav]
 # Credits Goes to WilliamButcherBot
 
 
@@ -661,7 +660,7 @@ async def inline_query_handler(client, query):
         Time Zones:- {tom}
         Top Level Domain:- {lanester}
         wikipedia:- {wiki}</b>
-        Gathered By Daisy X.</b>
+        Gathered By Black Cat.</b>
         """
             results.append(
                 InlineQueryResultArticle(

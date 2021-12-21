@@ -1,4 +1,4 @@
-# This file is part of Daisy (Telegram Bot)
+# This file is part of Black Cat (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -27,7 +27,7 @@ from Felicia.utils.logger import log
 from Felicia.versions import DAISY_VERSION
 
 log.info("----------------------")
-log.info("|      Daisy X      |")
+log.info("|      Black Cat      |")
 log.info("----------------------")
 log.info("Version: " + DAISY_VERSION)
 
