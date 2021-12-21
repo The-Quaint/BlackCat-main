@@ -35,10 +35,8 @@
 
  - [tgbot](https://github.com/PaulSonOfLars/tgbot) (Main Credit)
  - [MissJuliaRobot](https://github.com/MissJuliaRobot/MissJuliaRobot)
- - [DaisyX](https://github.com/teamDaisyX/daisy-x)
  - [ADV-Auto-Filter-Bot-V2](https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2)
  - [Image-Editor](https://github.com/TroJanzHEX/Image-Editor/)
- - [Utah](https://github.com/minatouzuki/utah)
  - [WilliamButcherBot](https://github.com/thehamkercat/WilliamButcherBot)
 
 
