@@ -13,4 +13,4 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-DAISY_VERSION = "v1.5.1-H4.0"
+FELICIA_VERSION = "v1.5.1-H4.0"

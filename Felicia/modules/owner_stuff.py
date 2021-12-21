@@ -25,7 +25,7 @@ import sys
 import rapidjson
 import requests
 
-from Felicia import DAISY_VERSION, OWNER_ID, bot, dp
+from Felicia import FELICIA_VERSION, OWNER_ID, bot, dp
 from Felicia.decorator import COMMANDS_ALIASES, REGISTRED_COMMANDS, register
 from Felicia.modules import LOADED_MODULES
 from Felicia.services.mongo import db, mongodb
@@ -236,7 +236,7 @@ async def get_event(message):
 @register(cmds="stats", is_op=True)
 async def stats(message):
     if message.from_user.id == OWNER_ID:
-        text = f"<b>Black Cat {DAISY_VERSION} stats</b>\n"
+        text = f"<b>Black Cat {FELICIA_VERSION} stats</b>\n"
 
         for module in [m for m in LOADED_MODULES if hasattr(m, "__stats__")]:
             text += await module.__stats__()

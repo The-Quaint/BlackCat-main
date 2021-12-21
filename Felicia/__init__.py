@@ -24,15 +24,15 @@ from aiogram.contrib.fsm_storage.redis import RedisStorage2
 from Felicia.config import get_bool_key, get_int_key, get_list_key, get_str_key
 from Felicia.services.telethon import tbot
 from Felicia.utils.logger import log
-from Felicia.versions import DAISY_VERSION
+from Felicia.versions import FELICIA_VERSION
 
 log.info("----------------------")
 log.info("|      Black Cat      |")
 log.info("----------------------")
-log.info("Version: " + DAISY_VERSION)
+log.info("Version: " + FELICIA_VERSION)
 
 if get_bool_key("DEBUG_MODE") is True:
-    DAISY_VERSION += "-debug"
+    FELICIA_VERSION += "-debug"
     log.setLevel(logging.DEBUG)
     log.warn(
         "! Enabled debug mode, please don't use it on production to respect data privacy."
