@@ -3,11 +3,11 @@
 <h4 align="center">A Powerful, Smart And Simple Telegram Group Management bot <br> ... Made by <a href="https://github.com/The-Quaint">The Quaint</a> </h4>
 <p align='center'>
   <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat-square&logo=python&color=blue" /> </a>
-  <a href="https://github.com/TeamDaisyX/DaisyX-v2/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" /> </a>
+  <a href="https://github.com/The-Quaint/BlackCat-main/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" /> </a>
 </p>
 
 
-<p align="center"><a href="https://t.me/The_Quaint"><img src="https://telegra.ph/file/c6a5d47f31be067b03cb6.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/The_Quaint"><img src="https://telegra.ph/file/02328427f0509427fb399.jpg" width="580"></a></p>
 <p align="center">
 <h4 align="center">" I'm the Black Cat. The greatest thief of all time. There's nothing you can take from me... that I can't get back."</h4>
 </p>
