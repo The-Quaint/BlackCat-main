@@ -19,6 +19,7 @@
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl import functions, types
 
+from Felicia.services.events import register as Felicia
 from Felicia.services.telethon import tbot
 from Felicia.services.telethonuserbot import ubot
 
@@ -53,7 +54,7 @@ async def silently_send_message(conv, text):
     return response
 
 
-@Daisy(pattern="^/namehistory ?(.*)")
+@Felicia(pattern="^/namehistory ?(.*)")
 async def _(event):
 
     if event.fwd_from:
