@@ -118,7 +118,7 @@ STRINGS:
     #/delwarns
     purged_warns: "{admin} redefiniu <code>{num}</code> os avisos de {user} em <b>{chat_title}</b>!"
     usr_no_wrn: "{user} não tem nenhum aviso para redefinir."
-    rst_wrn_sofi: 'Daisy nunca teve avisos para redefinir.'
+    rst_wrn_sofi: 'Felicia nunca teve avisos para redefinir.'
     not_digit: Os limites de avisos devem ser dígitos!
     #/warnmode
     same_mode: Este é o modo atual! Como posso mudá-lo?
@@ -163,17 +163,17 @@ STRINGS:
     cant_promote_yourself: "Você não pode promover a si mesmo."
     emoji_not_allowed: "Sinto muito, mas o título de administrador não podem ter emojis 😞"
   pm_menu:
-    start_hi_group: 'Olá! Meu nome é Daisy'
-    start_hi: "Olá! Meu nome é <b>Daisy.</b>\nEu posso ajudar a gerenciar seus grupos com recursos úteis, fique à vontade para me adicionar aos seus grupos!"
+    start_hi_group: 'Olá! Meu nome é Felicia'
+    start_hi: "Olá! Meu nome é <b>Felicia.</b>\nEu posso ajudar a gerenciar seus grupos com recursos úteis, fique à vontade para me adicionar aos seus grupos!"
     btn_source: "📜 Código fonte"
     btn_help: "❔ Ajuda"
     btn_lang: "🇧🇷 Idioma"
-    btn_channel: "🙋‍♀️ Notícias do Daisy"
-    btn_group: "👥 Daisy Support"
+    btn_channel: "🙋‍♀️ Notícias do Felicia"
+    btn_group: "👥 Felicia Support"
     btn_group_help: "Clique aqui para obter ajuda!"
     back: Voltar
     #/help
-    help_header: "Ei! Meu nome é <b>Daisy</b>. Sou um bot de gerenciamento de grupo, estou aqui para ajudá-lo a se locomover e manter a ordem em seus grupos!\nTenho muitos recursos úteis, como controle de flood, um sistema de avisos, um sistema de notas e até mesmo respostas predeterminadas em certas palavras-chave."
+    help_header: "Ei! Meu nome é <b>Felicia</b>. Sou um bot de gerenciamento de grupo, estou aqui para ajudá-lo a se locomover e manter a ordem em seus grupos!\nTenho muitos recursos úteis, como controle de flood, um sistema de avisos, um sistema de notas e até mesmo respostas predeterminadas em certas palavras-chave."
     click_btn: Clique aqui
   disable:
     #/disableable
@@ -487,7 +487,7 @@ STRINGS:
     big_file: Somente arquivos menores de 50 MB são suportados!
     started_importing: Importação iniciada!  Por favor, espere...
     bad_file: Arquivo errado! Esperava-se coluna <code>'geral'</code>.
-    file_version_so_new: A versão do arquivo exportado é mais nova do que a Daisy suporta atualmente!
+    file_version_so_new: A versão do arquivo exportado é mais nova do que a Felicia suporta atualmente!
     imports_locked: Por favor, aguarde %s antes de usar novamente a importação!
     import_done: Importação concluída!
   restrictions:

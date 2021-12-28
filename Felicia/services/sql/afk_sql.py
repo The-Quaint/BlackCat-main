@@ -1,4 +1,4 @@
-# Reconfigured with AioGram by DaisyDevTeam
+# Reconfigured with AioGram by FeliciaDevTeam
 # Timer added by MissJuliaRobot
 import threading
 import time

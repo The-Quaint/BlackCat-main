@@ -1,5 +1,5 @@
 #    Copyright (C) 2020-2021 by @InukaAsith
-#    This programme is a part of Daisy TG bot project
+#    This programme is a part of Felicia TG bot project
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as published by

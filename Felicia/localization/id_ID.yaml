@@ -118,7 +118,7 @@ STRINGS:
     #/delwarns
     purged_warns: "{admin} menyetel ulang <code>{num}</code> peringatan pada {user} di <b>{chat_title}</b>!"
     usr_no_wrn: "{user} tidak memiliki peringatan untuk di setel ulang."
-    rst_wrn_sofi: 'Daisy tidak pernah diperingati untuk di setel ulang.'
+    rst_wrn_sofi: 'Felicia tidak pernah diperingati untuk di setel ulang.'
     not_digit: Batas peringatan harus berupa angka!
     #/warnmode
     same_mode: Berikut ini adalah mode saat ini! Bagaimana saya akan mengubahnya?
@@ -487,7 +487,7 @@ STRINGS:
     big_file: Only files under 50 MB are supported!
     started_importing: Importing started! Please wait...
     bad_file: Bad file! Expected <code>'general'</code> column.
-    file_version_so_new: Exported file version is newer than what Daisy currently supports!
+    file_version_so_new: Exported file version is newer than what Felicia currently supports!
     imports_locked: Please wait %s before using imports again!
     import_done: Import done!
   restrictions:

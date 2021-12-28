@@ -2,7 +2,7 @@
 # Copyright (C) 2021 Inuka Asith
 # Copyright (C) 2021 TeamFelicia
 
-# This file is part of Daisy (Telegram Bot)
+# This file is part of Felicia (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as

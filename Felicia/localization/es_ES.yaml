@@ -118,7 +118,7 @@ STRINGS:
     #/delwarns
     purged_warns: "{admin} restableció <code>{num}</code> advertencias a {user} en <b>{chat_title}</b>!"
     usr_no_wrn: "{user} aún no tiene ninguna advertencia."
-    rst_wrn_sofi: 'Daisy nunca ha tenido advertencias para reiniciar.'
+    rst_wrn_sofi: 'Felicia nunca ha tenido advertencias para reiniciar.'
     not_digit: '¡El límite de advertencias deben ser dígitos!'
     #/warnmode
     same_mode: '¡Este es el modo actual! ¿Cómo puedo cambiarlo?'
@@ -165,16 +165,16 @@ STRINGS:
     emoji_not_allowed: "Lo siento, pero los roles de administrador no pueden contener emojis 😞"
   pm_menu:
     start_hi_group: '¡Hola! Mi nombre es Sophie'
-    start_hi: "¡Hola! ¡Mi nombre es <b>Daisy</b>, te ayudo a gestionar tu grupo de una manera eficiente!"
+    start_hi: "¡Hola! ¡Mi nombre es <b>Felicia</b>, te ayudo a gestionar tu grupo de una manera eficiente!"
     btn_source: "📜 Código fuente"
     btn_help: "❔ Ayuda"
     btn_lang: "es Idioma"
-    btn_channel: "📡 Noticias de Daisy"
-    btn_group: "👥 Daisy Support"
+    btn_channel: "📡 Noticias de Felicia"
+    btn_group: "👥 Felicia Support"
     btn_group_help: "Click me for help!"
     back: Atrás
     #/help
-    help_header: "¡Oye! Mi nombre es <b>Daisy</b>. Soy un robot de gestión de grupos, ¡estoy aquí para ayudarte a moverte y mantener el orden en tus grupos!\nTengo muchas funciones útiles, como control de flood, un sistema de advertencia, un sistema de notas e incluso respuestas predeterminadas a ciertas palabras clave."
+    help_header: "¡Oye! Mi nombre es <b>Felicia</b>. Soy un robot de gestión de grupos, ¡estoy aquí para ayudarte a moverte y mantener el orden en tus grupos!\nTengo muchas funciones útiles, como control de flood, un sistema de advertencia, un sistema de notas e incluso respuestas predeterminadas a ciertas palabras clave."
     click_btn: Haz clic aquí
   disable:
     #/disableable
@@ -488,7 +488,7 @@ STRINGS:
     big_file: '¡Sólo se admiten archivos menores de 50 MB!'
     started_importing: '¡Importación iniciada! Por favor espere...'
     bad_file: '¡Archivo erróneo! Se esperaba <code>columna ''general''</code>.'
-    file_version_so_new: '¡La versión del archivo exportado es más reciente de lo que Daisy admite actualmente!'
+    file_version_so_new: '¡La versión del archivo exportado es más reciente de lo que Felicia admite actualmente!'
     imports_locked: '¡Por favor, espere %s antes de usar la importación nuevamente!'
     import_done: '¡Importación hecha!'
   restrictions:

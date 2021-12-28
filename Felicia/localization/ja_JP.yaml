@@ -165,7 +165,7 @@ STRINGS:
     emoji_not_allowed: "申し訳ありませんが、管理者の役割は絵文字を持つことができません。 :explosed_face:"
   pm_menu:
     start_hi_group: 'こんにちは！私の名前はBlack Cat'
-    start_hi: "こんにちは！私の名前はDaisyです。効率的な方法であなたのグループを管理するのを助けます！"
+    start_hi: "こんにちは！私の名前はFeliciaです。効率的な方法であなたのグループを管理するのを助けます！"
     btn_source: "📦 ソース コード"
     btn_help: "❔ ヘルプ"
     btn_lang: "🇷🇺 Language"

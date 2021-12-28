@@ -1,4 +1,4 @@
-# This file is part of Daisy (Telegram Bot)
+# This file is part of Felicia (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -273,7 +273,7 @@ async def get_user_by_text(message, text: str):
         # If username matches entity's text
         if text in entity.get_text(message.text):
             if entity.type == "mention":
-                # This one entity is comes with mention by username, like @rDaisyBot
+                # This one entity is comes with mention by username, like @rFeliciaBot
                 return await get_user_by_username(text)
             elif entity.type == "text_mention":
                 # This one is link mention, mostly used for users without an username

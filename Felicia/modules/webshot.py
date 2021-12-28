@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from Felicia.services.pyrogram import pbot as Daisy
+from Felicia.services.pyrogram import pbot as Felicia
 
 
-@Daisy.on_message(filters.command("webshot", ["."]))
+@Felicia.on_message(filters.command("webshot", ["."]))
 async def webshot(clien, message):
     try:
         user = message.command[1]

@@ -1,6 +1,6 @@
 # Copyright (C) 2021 Red-Aura & TeamFelicia & HamkerCat
 
-# This file is part of Daisy (Telegram Bot)
+# This file is part of Felicia (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -138,12 +138,12 @@ async def hmm(client, message):
     if chat_id in en_chats:
         test = msg
         test = test.replace("daisy", "Aco")
-        test = test.replace("Daisy", "Aco")
+        test = test.replace("Felicia", "Aco")
         response = await lunaQuery(
             test, message.from_user.id if message.from_user else 0
         )
-        response = response.replace("Aco", "Daisy")
-        response = response.replace("aco", "Daisy")
+        response = response.replace("Aco", "Felicia")
+        response = response.replace("aco", "Felicia")
 
         pro = response
         try:
@@ -196,14 +196,14 @@ async def hmm(client, message):
         # test = emoji.demojize(test.strip())
 
         test = test.replace("daisy", "Aco")
-        test = test.replace("Daisy", "Aco")
+        test = test.replace("Felicia", "Aco")
         response = await lunaQuery(
             test, message.from_user.id if message.from_user else 0
         )
-        response = response.replace("Aco", "Daisy")
-        response = response.replace("aco", "Daisy")
-        response = response.replace("Luna", "Daisy")
-        response = response.replace("luna", "Daisy")
+        response = response.replace("Aco", "Felicia")
+        response = response.replace("aco", "Felicia")
+        response = response.replace("Luna", "Felicia")
+        response = response.replace("luna", "Felicia")
         pro = response
         if not "en" in lan and not lan == "":
             try:
@@ -270,11 +270,11 @@ async def inuka(client, message):
 
     # Kang with the credits bitches @InukaASiTH
     test = test.replace("daisy", "Aco")
-    test = test.replace("Daisy", "Aco")
+    test = test.replace("Felicia", "Aco")
 
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
-    response = response.replace("Aco", "Daisy")
-    response = response.replace("aco", "Daisy")
+    response = response.replace("Aco", "Felicia")
+    response = response.replace("aco", "Felicia")
 
     pro = response
     if not "en" in lan and not lan == "":
@@ -288,7 +288,7 @@ async def inuka(client, message):
 
 
 @Felicia.on_message(
-    filters.regex("Daisy|daisy|Felicia|Felicia|Daisyx")
+    filters.regex("Felicia|daisy|Felicia|Felicia|Feliciax")
     & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded
@@ -344,10 +344,10 @@ async def inuka(client, message):
     # test = emoji.demojize(test.strip())
 
     test = test.replace("daisy", "Aco")
-    test = test.replace("Daisy", "Aco")
+    test = test.replace("Felicia", "Aco")
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
-    response = response.replace("Aco", "Daisy")
-    response = response.replace("aco", "Daisy")
+    response = response.replace("Aco", "Felicia")
+    response = response.replace("aco", "Felicia")
 
     pro = response
     if not "en" in lan and not lan == "":

@@ -1,7 +1,7 @@
 # Copyright (C) 2021 TeamFelicia
 
 
-# This file is part of Daisy (Telegram Bot)
+# This file is part of Felicia (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -39,7 +39,7 @@ from telethon.tl.types import (
 
 from Felicia import bot
 from Felicia.decorator import register
-from Felicia.services.events import register as Daisy
+from Felicia.services.events import register as Felicia
 from Felicia.services.pyrogram import pbot
 from Felicia.services.telethon import tbot
 from Felicia.services.telethonuserbot import ubot
@@ -124,7 +124,7 @@ def find_instance(items, class_or_tuple):
     return None
 
 
-@Daisy(pattern="^/searchsticker (.*)")
+@Felicia(pattern="^/searchsticker (.*)")
 async def _(event):
     input_str = event.pattern_match.group(1)
     combot_stickers_url = "https://combot.org/telegram/stickers?q="
@@ -142,7 +142,7 @@ async def _(event):
     await event.reply(reply)
 
 
-@Daisy(pattern="^/packinfo$")
+@Felicia(pattern="^/packinfo$")
 async def _(event):
     approved_userss = approved_users.find({})
     for ch in approved_userss:
@@ -210,7 +210,7 @@ async def get_sticker_emoji(event):
     return final_emoji
 
 
-@Daisy(pattern="^/kang ?(.*)")
+@Felicia(pattern="^/kang ?(.*)")
 async def _(event):
     if not event.is_reply:
         await event.reply("PLease, Reply To A Sticker / Image To Add It Your Pack")
@@ -395,7 +395,7 @@ async def _(event):
     os.system("rm -rf *.webp")
 
 
-@Daisy(pattern="^/rmkang$")
+@Felicia(pattern="^/rmkang$")
 async def _(event):
     try:
         if not event.is_reply:

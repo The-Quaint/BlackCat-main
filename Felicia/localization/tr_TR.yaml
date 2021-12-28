@@ -159,8 +159,8 @@ STRINGS:
     btn_source: "📦 Code source"
     btn_help: "❔ Yardım"
     btn_lang: "🇹🇷 Dil"
-    btn_group: "👥 Daisy Grubu"
-    btn_channel: "📡 Daisy Kanalı"
+    btn_group: "👥 Felicia Grubu"
+    btn_channel: "📡 Felicia Kanalı"
     back: Geri
     #/help
     help_header: Hey! check help here
