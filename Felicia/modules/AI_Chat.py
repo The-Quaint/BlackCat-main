@@ -221,7 +221,7 @@ async def hmm(client, message):
 @Felicia.on_message(
     filters.text & filters.private & ~filters.edited & filters.reply & ~filters.bot
 )
-async def inuka(client, message):
+async def spider(client, message):
     msg = message.text
     if msg.startswith("/") or msg.startswith("@"):
         message.continue_propagation()
@@ -295,7 +295,7 @@ async def inuka(client, message):
     & ~filters.channel
     & ~filters.edited
 )
-async def inuka(client, message):
+async def spider(client, message):
     msg = message.text
     if msg.startswith("/") or msg.startswith("@"):
         message.continue_propagation()
