@@ -1,4 +1,4 @@
-# Written by Inukaasith for the Felicia project
+# Written by The-Quaint for the Felicia project
 # This file is part of FeliciaBot (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
