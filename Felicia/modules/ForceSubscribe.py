@@ -1,4 +1,4 @@
-#    Copyright (C) 2020-2021 by @InukaAsith
+#    Copyright (C) 2020-2021 by The-Quaint
 #    This programme is a part of Felicia TG bot project
 #
 #    This program is free software: you can redistribute it and/or modify
