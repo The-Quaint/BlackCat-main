@@ -1,4 +1,4 @@
-# Copyright (C) 2021 Red-Aura & TeamFelicia & HamkerCat
+# Copyright (C) 2021 The-Quaint
 
 # This file is part of Felicia (Telegram Bot)
 
@@ -62,7 +62,7 @@ async def fetch(url):
 
 daisy_chats = []
 en_chats = []
-# AI Chat (C) 2020-2021 by @InukaAsith
+# AI CHAT
 
 
 @Felicia.on_message(
@@ -268,7 +268,6 @@ async def inuka(client, message):
 
     # test = emoji.demojize(test.strip())
 
-    # Kang with the credits bitches @InukaASiTH
     test = test.replace("daisy", "Aco")
     test = test.replace("Felicia", "Aco")
 
