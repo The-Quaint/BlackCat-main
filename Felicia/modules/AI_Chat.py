@@ -60,7 +60,7 @@ async def fetch(url):
         return
 
 
-daisy_chats = []
+felicia_chats = []
 en_chats = []
 # AI CHAT
 
@@ -70,7 +70,7 @@ en_chats = []
 )
 @admins_only
 async def hmm(_, message):
-    global daisy_chats
+    global felicia_chats
     if len(message.command) != 2:
         await message.reply_text(
             "I only recognize `/chatbot on` and /chatbot `off only`"
@@ -137,7 +137,7 @@ async def hmm(client, message):
         message.continue_propagation()
     if chat_id in en_chats:
         test = msg
-        test = test.replace("daisy", "Aco")
+        test = test.replace("Black Cat", "Aco")
         test = test.replace("Felicia", "Aco")
         response = await lunaQuery(
             test, message.from_user.id if message.from_user else 0
@@ -195,7 +195,7 @@ async def hmm(client, message):
                 return
         # test = emoji.demojize(test.strip())
 
-        test = test.replace("daisy", "Aco")
+        test = test.replace("Black Cat", "Aco")
         test = test.replace("Felicia", "Aco")
         response = await lunaQuery(
             test, message.from_user.id if message.from_user else 0
@@ -268,7 +268,7 @@ async def spider(client, message):
 
     # test = emoji.demojize(test.strip())
 
-    test = test.replace("daisy", "Aco")
+    test = test.replace("Black Cat", "Aco")
     test = test.replace("Felicia", "Aco")
 
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
@@ -287,7 +287,7 @@ async def spider(client, message):
 
 
 @Felicia.on_message(
-    filters.regex("Felicia|daisy|Felicia|Felicia|Feliciax")
+    filters.regex("Felicia|felicia|Felicia|Felicia|Black Cat")
     & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded
@@ -342,7 +342,7 @@ async def spider(client, message):
 
     # test = emoji.demojize(test.strip())
 
-    test = test.replace("daisy", "Aco")
+    test = test.replace("Black Cat", "Aco")
     test = test.replace("Felicia", "Aco")
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
     response = response.replace("Aco", "Felicia")
