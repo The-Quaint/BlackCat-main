@@ -1,4 +1,3 @@
-# Copyright (C) 2021 HitaloSama.
 # Copyright (C) 2021 TeamFelicia
 
 
