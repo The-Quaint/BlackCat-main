@@ -1,4 +1,3 @@
-# Voics Chatbot Module Credits Pranav Ajay 🐰Github = Red-Aura 🐹 Telegram= @madepranav
 # @lyciachatbot support Now
 import os
 
@@ -20,7 +19,7 @@ async def fetch(url):
 
 
 async def ai_lycia(url):
-    ai_name = "Feliciax.mp3"
+    ai_name = "BlackCat.mp3"
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as resp:
             if resp.status == 200:
@@ -30,7 +29,7 @@ async def ai_lycia(url):
     return ai_name
 
 
-@LYCIA.on_message(filters.command("daisy"))
+@LYCIA.on_message(filters.command("felicia"))
 async def Lycia(_, message):
     if len(message.command) < 2:
         await message.reply_text("Felicia AI Voice Chatbot")
