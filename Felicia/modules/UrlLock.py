@@ -37,7 +37,7 @@ from Felicia.services.pyrogram import pbot
 )
 @admins_only
 async def hmm(_, message):
-    global daisy_chats
+    global felicia_chats
     try:
         user_id = message.from_user.id
     except:
