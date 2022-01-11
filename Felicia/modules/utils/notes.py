@@ -1,4 +1,3 @@
- 
 # Copyright (C) 2019 Aiogram
 #
 # This file is part of AllMightBot.
