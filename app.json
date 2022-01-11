@@ -64,7 +64,7 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "Only for fork users else don't change",
-      "value": "https://github.com/TeamFelicia/Felicia-v2.0",
+      "value": "https://github.com/The-Quaint/BlackCat-main",
       "required": false  
     },
     "API_PORT": {
