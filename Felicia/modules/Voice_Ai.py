@@ -1,6 +1,6 @@
 # Ported from @MissJuliaRobot
 
-# Copyright (C) 2021 TeamFelicia
+# Copyright (C) 2021 The-Quaint
 
 
 # This file is part of Felicia (Telegram Bot)

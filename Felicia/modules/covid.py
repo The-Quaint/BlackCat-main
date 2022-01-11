@@ -1,5 +1,5 @@
 # Copyright (C) 2021 TheHamkerCat
-# Edited by TeamFelicia
+# Edited by The-Quaint
 
 # This file is part of Felicia (Telegram Bot)
 
