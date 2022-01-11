@@ -16,8 +16,6 @@
 import httpx
 import rapidjson as json
 
-# This file is an adaptation / port from the Galaxy Helper Bot.
-# Copyright (C) KassemSYR. All rights reserved.
 
 
 class GetDevice:
