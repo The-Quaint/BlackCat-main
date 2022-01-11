@@ -1,5 +1,5 @@
-# Copyright (C) 2020 DevsExpo
 # Copyright (C) 2021 TeamFelicia
+# Copyright (C) 2020 DevsExpo
 
 # This file is part of Felicia (Telegram Bot)
 
