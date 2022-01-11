@@ -2,9 +2,9 @@
 echo "
 *********** STARTING DEPLOY ***********
 
-BLACKCAT v2 -Base Aiogram
-(C) 2020-2021 by @TEAMBLACKCAT
-Support Chat is @DAISYSUPPORT_OFFICIAL.
+BLACK CAT v2 -Base Aiogram
+(C) 2020-2021 by @The-Quaint
+For Support @Spider_Man_616.
 
 ***************************************
 "
@@ -30,17 +30,17 @@ ech_final () {
     echo "
     
 =++---------------------------------------------++=
-BLACKCAT. Deployed Successfully
+BLACK CAT. Deployed Successfully
 
  ***************************
- * |D| |A| |I| |S| |Y| |X| *
- ******************* v2.0 ** 
+ * |B| |L| |A| |C| |K| |C| |A| |T| *
+ ******************* v3.0 ** 
 
-Thanks for deploying Felicia
-(C) 2020-2021 by @TEAMBLACKCAT
-Support Chat is @DAISYSUPPORT_OFFICIAL.
+Thanks for deploying Felicia (aka Black Cat)
+(C) 2020-2021 by @The-Quaint
+For Support @Spider_Man_616..
 =++---------------------------------------------++=
-                       Greetings from dev team :)
+                       You did it :)
     "
 }
 
