@@ -17,7 +17,6 @@ import httpx
 import rapidjson as json
 
 
-
 class GetDevice:
     def __init__(self, device):
         """Get device info by codename or model!"""
